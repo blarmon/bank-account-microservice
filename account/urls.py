@@ -19,7 +19,7 @@ from . import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('account', views.BankAccountView)
+router.register('accounts', views.BankAccountView)
 router.register('users', views.UserViewSet)
 
 
