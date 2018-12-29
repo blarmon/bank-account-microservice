@@ -20,6 +20,8 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register('account', views.BankAccountView)
+router.register('users', views.UserViewSet)
+
 
 urlpatterns = [
     path('api/', include(router.urls))
