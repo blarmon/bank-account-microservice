@@ -1,1 +1,0 @@
-web: gunicorn bank_account_microservice.wsgi
