@@ -12,6 +12,8 @@ This site is essentially just an API connected to a postgres backend hosted on H
 
 API endpoints:
 
+note: please attach {'Content-Type': 'application/json'} as a header for all calls (this is already taken care of if using the bam library I created.)
+
 * accounts: https://bank-account-microservice.herokuapp.com/api/accounts/  
 
   * "GET" - https://bank-account-microservice.herokuapp.com/api/accounts/
