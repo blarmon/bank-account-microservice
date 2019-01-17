@@ -4,7 +4,7 @@ A microservice used to perform crud operations on (fake) customer bank accounts 
 
 This site is essentially just an API connected to a postgres backend hosted on Heroku.
 
-[Django Rest Framework API exploration tool on Heroku](https://bank-account-microservice.herokuapp.com/api/)
+[Hosted on Heroku](https://bank-account-microservice.herokuapp.com/api/)
 
 ### The API can be explored using the Django Rest Framework built in tools linked above, using a tool like [Postman](https://www.getpostman.com/) to make calls to the endpoints listed below, or by utilizing a python library I have created, the repo and documentation for which lives [here](https://github.com/blarmon/bamLib) 
 
